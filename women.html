@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/bootstrap/css/stylesheet.css">
+  <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+  <!--Header of document-->
+
+  <nav class="navbar navbar-expand-lg header_color">
+    <div class="container-fluid ">
+      <a class="navbar-brand fst-italic fw-bolder mt-2 " href="#">
+        <img src="img/shoppingbag.png" height="50" width="50">
+        &nbsp; Trupti Clothings</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+
+          <li class="nav-item ">
+            <a class="nav-link border border-2 border-secondary shadow-lg rounded-pill text-center ps-4 pe-4 m-2 menu_bg fst-italic fw-bolder"
+              aria-current="page" href="index.html">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link border border-2 border-secondary shadow-lg rounded-pill text-center ps-4 pe-4 menu_bg fst-italic fw-bolder m-2 "
+              aria-current="page" href="men.html">Men</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link border border-2 border-secondary shadow-lg rounded-pill text-center ps-4 pe-4 menu_bg  fst-italic fw-bolder m-2"
+              aria-current="page" href="women.html">Women</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link border border-2 border-secondary shadow-lg rounded-pill text-center ps-4 pe-4 menu_bg  fst-italic fw-bolder m-2"
+              aria-current="page" href="aboutus.html">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link border border-2 border-secondary shadow-lg rounded-pill text-center ps-4 pe-4 menu_bg  fst-italic fw-bolder m-2"
+              aria-current="page" href="contactus.html">Contact Us</a>
+          </li>
+
+        </ul>
+
+        <div class="d-grid gap-2 d-md-block">
+          <button
+            class="border border-2 border-secondary shadow-lg rounded-pill text-center ps-sm-4 pe-sm-4 pt-1 pb-1 menu_bg fst-italic fw-bolder m-2"
+            type="button" aria-current="page" href="#">Cart &nbsp;
+            <i class="bi bi-bag-heart-fill"></i>
+          </button>
+        </div>
+        <div class="d-grid gap-2 d-md-block">
+          <button
+            class="border border-2 border-secondary shadow-lg rounded-pill text-center ps-sm-4 pe-sm-4 pt-1 pb-1 menu_bg fst-italic fw-bolder m-2"
+            type="button" aria-current="page" href="#" data-bs-toggle="modal" data-bs-target="#signup">Signup</button>
+        </div>
+
+      </div>
+    </div>
+  </nav>
+
+  <!-- Signup Modal -->
+  <div class="modal fade" id="signup" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header menu_bg">
+          <h1 class="modal-title fs-5 fw-bolder " id="exampleModalLabel">SignUp</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form>
+            <div class="m-1 ">
+              <label class="form-label">Email</label>
+              <input type="email" placeholder="Abc@12.in" class="form-control">
+            </div>
+            <div class="m-1 ">
+              <label class="form-label">Password</label>
+              <input type="password" placeholder="123QWE!@#" class="form-control">
+            </div>
+          </form>
+        </div>
+
+        <div class="modal-footer menu_bg">
+
+          <button type="button" class=" btn bg-dark  text-light  border-2 border-secondary ">Login</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!--end of header-->
+
+  <!--Start of body-->
+
+  <div class="container-fluid">
+    <div class="row mt-4 ">
+      <div class="col-sm-12  border border-3  border-black ">
+        <img src="img/women_banner.jpg" alt="catlog" height="400" width="1300">
+      </div>
+    </div>
+  </div>
+
+
+  <h2 class="text-sm-center mt-3 header_color text-dark border border-3 border-dark ">WOMENS FASHION</h2>
+ <!--cards of body-->
+
+ <div class="container-fluid mt-5 ">
+  <div class="row mt-5 ">
+    <div class="col-sm-3  ">
+      <div class="card" style="width: 18rem;">
+        <img src="img/womens/tshirt1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title text-sm-center text-decoration-underline">Shein</h5>
+          <p class="card-text">Light Grey Casual Short Sleeve Fabric Summer Men Clothing. </p>
+          <button type="button" class="btn btn-outline-primary btn-sm ">Add to cart</button>
+          <button type="button" class="btn btn-outline-primary btn-sm  ">Buy Now</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3  ">
+      <div class="card" style="width: 18rem;">
+        <img src="img/womens/tshirt2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title text-sm-center text-decoration-underline ">Puma</h5>
+          <p class="card-text">Style your wardrobe with this classic half sleeve solid t-shirt.</p>
+          <button type="button" class="btn btn-outline-primary btn-sm ">Add to cart</button>
+          <button type="button" class="btn btn-outline-primary btn-sm  ">Buy Now</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3 ">
+      <div class="card" style="width: 18rem;">
+        <img src="img/womens/tshirt3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title text-sm-center text-decoration-underline">Locomotive</h5>
+          <p class="card-text">White Casual Collar Short Sleeve Polyester Cartoon Slight Stretch</p>
+          <button type="button" class="btn btn-outline-primary btn-sm ">Add to cart</button>
+          <button type="button" class="btn btn-outline-primary btn-sm  ">Buy Now</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3 ">
+      <div class="card" style="width: 18rem;">
+        <img src="img/womens/tshirt4.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title text-sm-center text-decoration-underline">Polo</h5>
+          <p class="card-text">Black Casual Collar Short Sleeve Knitted Fabric Letter Slight Stretch </p>
+          <button type="button" class="btn btn-outline-primary btn-sm ">Add to cart</button>
+          <button type="button" class="btn btn-outline-primary btn-sm  ">Buy Now</button>
+        </div>
+      </div>
+    </div>
+
+    <hr class="mt-5 "> 
+
+  <div class="row mt-5 ">
+    <div class="col-sm-3  ">
+      <div class="card" style="width: 18rem;">
+        <img src="img/womens/top1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title text-sm-center text-decoration-underline">Shein</h5>
+          <p class="card-text">Light Grey Casual Short Sleeve Fabric Summer Men Clothing. </p>
+          <button type="button" class="btn btn-outline-primary btn-sm ">Add to cart</button>
+          <button type="button" class="btn btn-outline-primary btn-sm  ">Buy Now</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3  ">
+      <div class="card" style="width: 18rem;">
+        <img src="img/womens/top2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title text-sm-center text-decoration-underline ">Puma</h5>
+          <p class="card-text">Style your wardrobe with this classic half sleeve solid t-shirt.</p>
+          <button type="button" class="btn btn-outline-primary btn-sm ">Add to cart</button>
+          <button type="button" class="btn btn-outline-primary btn-sm  ">Buy Now</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3 ">
+      <div class="card" style="width: 18rem;">
+        <img src="img/womens/top3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title text-sm-center text-decoration-underline">Locomotive</h5>
+          <p class="card-text">White Casual Collar Short Sleeve Polyester Cartoon Slight Stretch</p>
+          <button type="button" class="btn btn-outline-primary btn-sm ">Add to cart</button>
+          <button type="button" class="btn btn-outline-primary btn-sm  ">Buy Now</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3 ">
+      <div class="card" style="width: 18rem;">
+        <img src="img/womens/top4.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title text-sm-center text-decoration-underline">Polo</h5>
+          <p class="card-text">Black Casual Collar Short Sleeve Knitted Fabric Letter Slight Stretch </p>
+          <button type="button" class="btn btn-outline-primary btn-sm ">Add to cart</button>
+          <button type="button" class="btn btn-outline-primary btn-sm  ">Buy Now</button>
+        </div>
+      </div>
+    </div>
+
+  </div> 
+
+
+  <hr class="mt-5 "> 
+
+
+  <div class="row mt-5 ">
+    <div class="col-sm-3  ">
+      <div class="card" style="width: 18rem;">
+        <img src="img/womens/shirt1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title text-sm-center text-decoration-underline">Shein</h5>
+          <p class="card-text">Light Grey Casual Short Sleeve Fabric Summer Men Clothing. </p>
+          <button type="button" class="btn btn-outline-primary btn-sm ">Add to cart</button>
+          <button type="button" class="btn btn-outline-primary btn-sm  ">Buy Now</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3  ">
+      <div class="card" style="width: 18rem;">
+        <img src="img/womens/shirt2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title text-sm-center text-decoration-underline ">Puma</h5>
+          <p class="card-text">Style your wardrobe with this classic half sleeve solid t-shirt.</p>
+          <button type="button" class="btn btn-outline-primary btn-sm ">Add to cart</button>
+          <button type="button" class="btn btn-outline-primary btn-sm  ">Buy Now</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3 ">
+      <div class="card" style="width: 18rem;">
+        <img src="img/womens/shirt3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title text-sm-center text-decoration-underline">Locomotive</h5>
+          <p class="card-text">White Casual Collar Short Sleeve Polyester Cartoon Slight Stretch</p>
+          <button type="button" class="btn btn-outline-primary btn-sm ">Add to cart</button>
+          <button type="button" class="btn btn-outline-primary btn-sm  ">Buy Now</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3 ">
+      <div class="card" style="width: 18rem;">
+        <img src="img/womens/shirt4.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title text-sm-center text-decoration-underline">Polo</h5>
+          <p class="card-text">Black Casual Collar Short Sleeve Knitted Fabric Letter Slight Stretch </p>
+          <button type="button" class="btn btn-outline-primary btn-sm ">Add to cart</button>
+          <button type="button" class="btn btn-outline-primary btn-sm  ">Buy Now</button>
+        </div>
+      </div>
+    </div>
+
+  </div> 
+  <hr class="mt-5 "> 
+
+
+  <div class="row mt-5 ">
+    <div class="col-sm-3  ">
+      <div class="card" style="width: 18rem;">
+        <img src="img/womens/saree1.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title text-sm-center text-decoration-underline">Shein</h5>
+          <p class="card-text">Light Grey Casual Short Sleeve Fabric Summer Men Clothing. </p>
+          <button type="button" class="btn btn-outline-primary btn-sm ">Add to cart</button>
+          <button type="button" class="btn btn-outline-primary btn-sm  ">Buy Now</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3  ">
+      <div class="card" style="width: 18rem;">
+        <img src="img/womens/saree2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title text-sm-center text-decoration-underline ">Puma</h5>
+          <p class="card-text">Style your wardrobe with this classic half sleeve solid t-shirt.</p>
+          <button type="button" class="btn btn-outline-primary btn-sm ">Add to cart</button>
+          <button type="button" class="btn btn-outline-primary btn-sm  ">Buy Now</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3 ">
+      <div class="card" style="width: 18rem;">
+        <img src="img/womens/saree3.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title text-sm-center text-decoration-underline">Locomotive</h5>
+          <p class="card-text">White Casual Collar Short Sleeve Polyester Cartoon Slight Stretch</p>
+          <button type="button" class="btn btn-outline-primary btn-sm ">Add to cart</button>
+          <button type="button" class="btn btn-outline-primary btn-sm  ">Buy Now</button>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3 ">
+      <div class="card" style="width: 18rem;">
+        <img src="img/womens/saree4.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title text-sm-center text-decoration-underline">Polo</h5>
+          <p class="card-text">Black Casual Collar Short Sleeve Knitted Fabric Letter Slight Stretch </p>
+          <button type="button" class="btn btn-outline-primary btn-sm ">Add to cart</button>
+          <button type="button" class="btn btn-outline-primary btn-sm  ">Buy Now</button>
+        </div>
+      </div>
+    </div>
+
+  </div> 
+
+  
+  
+
+
+
+ </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!--End of body-->
+
+
+<!-- start footer section  -->
+<div class="container-fluid mt-5 ">
+  <div class="row  ">
+    <div class="col-sm-5">
+      <h1 class="footer_h1"> <img src="img/aboutus (1).png" height="40" width="40"> About Us</h1>
+      <hr class="footer_hr">
+      <p class="fst-italic">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus voluptatem beatae quis
+        iusto, eaque quasi sapiente, minus exercitationem dolore unde harum doloremque hic, nihil aliquid doloribus
+        autem iste maiores nam?</p>
+
+    </div>
+    <div class="col-sm-4  center_footer">
+      <h1 class="fw-bolder"> <img src="img/contactus.png" height="50" width="50"> Contact Us </h1>
+      <hr>
+      <p class="fw-bolder fst-italic">Email: trupti@12.in</p>
+      <p class="fw-bolder fst-italic">Phone: 9325641231</p>
+      <p class="fw-bolder fst-italic">Address: Mumbai</p>
+    </div>
+    <div class=" col-sm-3">
+      <h1> <img src="img/follwus.png" height="50" width="50"> Follow Us</h1>
+      <hr>
+      <p class="fw-bolder"> <img src="img/facebook.png" height="30" width="30"> &nbsp; Facebook</p>
+      <p class="fw-bolder"> <img src="img/instagram.png" height="30" width="30"> &nbsp; Instagram</p>
+      <p class="fw-bolder"> <img src="img/twitter.png" height="30" width="30"> &nbsp; Twitter</p>
+    </div>
+
+
+  </div>
+</div>
+
+<!-- End of footer section  -->
+
+
+
+
+
+</body>
+
+</html>

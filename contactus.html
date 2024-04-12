@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap/css/stylesheet.css">
+    <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <!--Header of document-->
+
+    <nav class="navbar navbar-expand-lg header_color">
+        <div class="container-fluid ">
+            <a class="navbar-brand fst-italic fw-bolder mt-2 " href="#">
+                <img src="img/shoppingbag.png" height="50" width="50">
+                &nbsp; Trupti Clothings</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+
+                    <li class="nav-item ">
+                        <a class="nav-link border border-2 border-secondary shadow-lg rounded-pill text-center ps-4 pe-4 m-2 menu_bg fst-italic fw-bolder"
+                            aria-current="page" href="index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link border border-2 border-secondary shadow-lg rounded-pill text-center ps-4 pe-4 menu_bg fst-italic fw-bolder m-2 "
+                            aria-current="page" href="men.html">Men</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link border border-2 border-secondary shadow-lg rounded-pill text-center ps-4 pe-4 menu_bg  fst-italic fw-bolder m-2"
+                            aria-current="page" href="women.html">Women</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link border border-2 border-secondary shadow-lg rounded-pill text-center ps-4 pe-4 menu_bg  fst-italic fw-bolder m-2"
+                            aria-current="page" href="aboutus.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link border border-2 border-secondary shadow-lg rounded-pill text-center ps-4 pe-4 menu_bg  fst-italic fw-bolder m-2"
+                            aria-current="page" href="contactus.html">Contact Us</a>
+                    </li>
+
+                </ul>
+
+                <div class="d-grid gap-2 d-md-block">
+                    <button
+                        class="border border-2 border-secondary shadow-lg rounded-pill text-center ps-sm-4 pe-sm-4 pt-1 pb-1 menu_bg fst-italic fw-bolder m-2"
+                        type="button" aria-current="page" href="#">Cart &nbsp;
+                        <i class="bi bi-bag-heart-fill"></i>
+                    </button>
+                </div>
+                <div class="d-grid gap-2 d-md-block">
+                    <button
+                        class="border border-2 border-secondary shadow-lg rounded-pill text-center ps-sm-4 pe-sm-4 pt-1 pb-1 menu_bg fst-italic fw-bolder m-2"
+                        type="button" aria-current="page" href="#" data-bs-toggle="modal"
+                        data-bs-target="#signup">Signup</button>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- Signup Modal -->
+    <div class="modal fade" id="signup" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header menu_bg">
+                    <h1 class="modal-title fs-5 fw-bolder " id="exampleModalLabel">SignUp</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="m-1 ">
+                            <label class="form-label">Email</label>
+                            <input type="email" placeholder="Abc@12.in" class="form-control">
+                        </div>
+                        <div class="m-1 ">
+                            <label class="form-label">Password</label>
+                            <input type="password" placeholder="123QWE!@#" class="form-control">
+                        </div>
+                    </form>
+                </div>
+
+                <div class="modal-footer menu_bg">
+
+                    <button type="button" class=" btn bg-dark  text-light  border-2 border-secondary ">Login</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--end of header-->
+
+    <!--Start of Body section-->
+
+    <div class="container-fluid mt-5 ">
+        <div class="row">
+            <div class="col-sm-4 border border-1 border-dark ">
+                <h3> <img src="img/contactus.png" height="30" width="30"> Call Us At: </h3>
+                <hr>
+                <p class="fst-italic fw-medium ">96541233874</p>
+
+            </div>
+            <div class="col-sm-4  border border-1 border-dark">
+                <h3> <img src="img/address.png" height="30" width="30"> Address : </h3>
+                <hr>
+                <p class="fst-italic fw-medium "> 123 Main Street, Goregoan, Mumbai 12345 </p>
+
+            </div>
+            <div class="col-sm-4  border border-1 border-dark">
+                <h3> <img src="img/follwus.png" height="30" width="30"> Social Media </h3>
+                <hr> &nbsp;
+                <a href="https://www.instagram.com/"> <img src="img/instagram.png" width="30" height="30"> </a> &nbsp;
+                <a href="https://www.facebook.com/"> <img src="img/facebook.png" width="30" height="30"> </a> &nbsp;
+                <a href="https://twitter.com/"> <img src="img/twitter.png" width="30" height="30"> </a>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-7 border border-1 border-dark">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d17927.67097872236!2d72.84750724320003!3d19.158980117256316!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b7aeb44d9b83%3A0x9cb8d073c37d482b!2sAarey!5e0!3m2!1sen!2sin!4v1712377482428!5m2!1sen!2sin"
+                    width="760" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="col-sm-5  border border-1 border-dark">
+                <h2 class="mt-4 text-sm-center text-decoration-underline fst-italic ">Send Us a Message</h2>
+                <form>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label mt-3 fw-bolder ">NAME</label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Name ">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label mt-1 fw-bolder ">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="name@example.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label mt-1 fw-bolder ">Message Here</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <!--End of Body section-->
+
+
+    <!-- start footer section  -->
+  <div class="container-fluid mt-5 ">
+    <div class="row  ">
+      <div class="col-sm-5">
+        <h1 class="footer_h1"> <img src="img/aboutus (1).png" height="40" width="40"> About Us</h1>
+        <hr class="footer_hr">
+        <p class="fst-italic">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus voluptatem beatae quis
+          iusto, eaque quasi sapiente, minus exercitationem dolore unde harum doloremque hic, nihil aliquid doloribus
+          autem iste maiores nam?</p>
+
+      </div>
+      <div class="col-sm-4  center_footer">
+        <h1 class="fw-bolder"> <img src="img/contactus.png" height="50" width="50"> Contact Us </h1>
+        <hr>
+        <p class="fw-bolder fst-italic">Email: trupti@12.in</p>
+        <p class="fw-bolder fst-italic">Phone: 9325641231</p>
+        <p class="fw-bolder fst-italic">Address: Mumbai</p>
+      </div>
+      <div class=" col-sm-3">
+        <h1> <img src="img/follwus.png" height="50" width="50"> Follow Us</h1>
+        <hr>
+        <p class="fw-bolder"> <img src="img/facebook.png" height="30" width="30"> &nbsp; Facebook</p>
+        <p class="fw-bolder"> <img src="img/instagram.png" height="30" width="30"> &nbsp; Instagram</p>
+        <p class="fw-bolder"> <img src="img/twitter.png" height="30" width="30"> &nbsp; Twitter</p>
+      </div>
+
+
+    </div>
+  </div>
+
+  <!-- End of footer section  -->
+
+
+
+
+
+
+</body>
+
+</html>
